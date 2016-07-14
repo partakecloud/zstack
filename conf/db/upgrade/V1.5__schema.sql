@@ -10,7 +10,7 @@ CREATE TABLE  `zstack`.`ImageStoreBackupStorageVO` (
 CREATE TABLE  `zstack`.`SchedulerVO` (
     `uuid` varchar(32) NOT NULL UNIQUE,
     `schedulerName` varchar(255),
-    `intervalHour` int unsigned NOT NULL,
+    `schedulerInterval` int unsigned NOT NULL,
     `jobName` varchar(255),
     `jobGroup` varchar(255),
     `triggerName` varchar(255),
